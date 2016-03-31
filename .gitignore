@@ -14,3 +14,6 @@ hs_err_pid*
 # IntelliJ Editor Files
 *.iml
 .idea/
+
+# target folder contents
+target/

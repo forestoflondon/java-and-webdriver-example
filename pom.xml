@@ -35,4 +35,8 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <testSourceDirectory>AcceptanceTests/src</testSourceDirectory>
+    </build>
+
 </project>

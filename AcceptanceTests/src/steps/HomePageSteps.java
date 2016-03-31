@@ -1,10 +1,10 @@
 package steps;
 
-import support.Site;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 import org.junit.Assert;
 import pageObjects.Home;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.Given;
+import support.Site;
 
 public class HomePageSteps {
     @Given("^I am on the itv home page$")

@@ -15,5 +15,5 @@ hs_err_pid*
 *.iml
 .idea/
 
-# target folder contents
+# Target Folder
 target/

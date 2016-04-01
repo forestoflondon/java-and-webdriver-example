@@ -17,3 +17,6 @@ hs_err_pid*
 
 # Target Folder
 target/
+
+# Acceptance Test Output Files
+errorScreenshots/

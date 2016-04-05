@@ -21,7 +21,8 @@ public class Browser {
         try {
             FileUtils.copyFile(screenshotFile, new File(String.format("%s/errorScreenshots/%s.png",
                     System.getProperty("user.dir"), currentScenario.getName())));
-        } catch (IOException exception) {
+        } 
+        catch (IOException exception) {
             System.out.println(String.format("Problem Capturing Error Screenshot for Scenario:" +
                     " %s Exception: %s", currentScenario.getName(), exception.getMessage()));
         }

@@ -2,14 +2,14 @@ package pageObjects;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import support.Browser;
+import support.BasePage;
 
-public class Home {
+public class Home extends BasePage {
     @FindBy(id = "footer")
     private WebElement pageFooter;
 
     public Home visit() {
-        Browser.Driver.navigate().to("http://www.itv.com");
+        driver.navigate().to("http://www.itv.com");
 
         return this;
     }

@@ -3,7 +3,7 @@ package steps;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
-import pageObjects.Home;
+import pages.Home;
 import support.Site;
 
 public class HomePageSteps {

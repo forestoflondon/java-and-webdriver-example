@@ -10,9 +10,7 @@ public class BaseStep {
     @Before
     public void beforeAll(Scenario currentScenario) {
         this.scenario = currentScenario;
-
-        if (Browser.Driver == null)
-            Browser.initialise();
+        Browser.initialise();
     }
 
     @After

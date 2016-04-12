@@ -14,7 +14,7 @@ public class Home extends BasePage {
         return this;
     }
 
-    public boolean isCopyrightInformationDisplayed(){
+    public boolean isCopyrightInformationDisplayed() {
         return pageFooter.getText().contains("© Copyright ITV plc 2016");
     }
 }

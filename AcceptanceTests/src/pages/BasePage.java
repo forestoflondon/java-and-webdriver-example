@@ -1,12 +1,13 @@
-package support;
+package pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import support.Browser;
 
-public class BasePage {
-    protected WebDriver driver;
+class BasePage {
+    WebDriver driver;
 
-    public BasePage() {
+    BasePage() {
         driver = Browser.Driver;
         PageFactory.initElements(driver, this);
     }

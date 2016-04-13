@@ -10,14 +10,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.io.File;
 import java.io.IOException;
 
-class Browser {
-    static WebDriver Driver;
+public class Browser {
+    public static WebDriver Driver;
 
-    static void initialise() {
+    public static void initialise() {
         Driver = new FirefoxDriver();
     }
 
-    static void takeErrorScreenshot(Scenario currentScenario) {
+    public static void takeErrorScreenshot(Scenario currentScenario) {
         File screenshotFile = ((TakesScreenshot) Browser.Driver).getScreenshotAs(OutputType.FILE);
 
         try {
